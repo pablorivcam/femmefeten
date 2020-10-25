@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'AlegreyaSans-Thin';
+  src: local('AlegreyaSans-Thin'), url(./fonts/Lato-Light.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

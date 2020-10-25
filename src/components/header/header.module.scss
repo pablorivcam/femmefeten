@@ -1,0 +1,122 @@
+
+@import '../../styleGlobalVariables';
+
+$logoWidth: 6vw;
+
+header {
+  width: 100%;  
+  height: $headerHeight;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #060300;
+  font-size: 1em;
+  text-align: left;
+  z-index: 2;
+  
+  transition-duration: 0.4s; 
+  -webkit-transition: all 0.4s ease; 
+  -moz-transition: all 0.4s ease; 
+  -o-transition: all 0.4s ease; 
+  -ms-transition: all 0.4s ease; 
+  transition: all 0.4s ease; 
+  
+}
+
+.hiddenTop{
+	background-color: #000000;
+	position: absolute;
+	transform: translateY(0vh);
+}
+
+.fixedTop {
+	background-color: #000000;
+	position: absolute;
+	transform: translateY(-$headerHeight);
+}
+
+header:hover {
+	  background-color: #000000;
+}
+
+video { height: 100vh; min-height: 100%;     object-fit: cover;
+}
+
+.headerNavbar{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerNavbar a{
+	vertical-align: center;
+	padding: 0.5em;
+	margin: 0.5em;
+	font-size: 1.2vw;
+	letter-spacing: 0.1vw;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+header .headerBanner img{
+	padding: 1em;
+	width: 32em;
+}
+
+.banner {
+	width: 20em;
+	height: 6em;
+}
+
+.logo {
+	width: $logoWidth;
+	height: $headerHeight;
+	opcity: 0.8;
+}
+
+.logoContainer{
+	width: $logoWidth;
+	height: $headerHeight;
+}
+
+.headerNavbar a:hover {
+	-webkit-animation: hoverBtn linear forwards 0.3s;
+	animation: hoverBtn linear forwards 0.3s;
+}
+
+.logoContainer:hover > .logo{
+	-webkit-animation: hoverImgBtn linear forwards 0.3s;
+	animation: hoverImgBtn linear forwards 0.3s;
+}
+
+@keyframes hoverBtn{
+	
+	0%{
+		color: #FFFFFF;
+		stroke: #FFAF00;
+	}
+	100%{
+		color: #FFAF00;
+		stroke: #554315;	
+		
+	}
+}
+
+@keyframes hoverImgBtn{
+	
+	0%{
+	width: $logoWidth;
+	}
+	50%{
+	width: 0vw;
+	}
+	100%{	
+	width: $logoWidth;
+	}
+}
+

@@ -1,0 +1,33 @@
+footer {
+	background-color: #131303;
+	padding: 1vw 4vw;
+	font-size: 1vw;
+	text-align: left;
+	color: white;
+}
+
+footer table tr td {
+	width: 14vw;
+	vertical-align: top;
+}
+
+footer table tr td *{
+	display:block;
+	margin-top: 1vh;
+}
+
+.footerTableTitle{
+	font-weight: bold;
+	font-size: 1.2vw;
+}
+
+.footerTableLink{
+	font-size: 1vw;
+	text-decoration: none;
+	color: white;
+}
+
+footer .logo {
+	width: 9vw;
+	height: 5vh;
+}

@@ -1,0 +1,65 @@
+.coolBtn, .coolBtn svg, .coolBtnShape {
+	width: 9em;
+	height: 50px;
+}
+
+.coolBtn{
+	height: 0.5em;
+	margin: 0 auto;
+	transform: translateY(-50%);
+}
+
+.coolBtn svg{
+	fill:transparent;
+	stroke-dasharray: 0 48;
+	stroke-dashoffset: -474;
+	stroke-width: 1px;
+	stroke: #AC8329;
+}
+
+.coolBtnText {
+	font-size: 1em;
+	letter-spacing: 1px;
+	position: relative;
+	top: -40px;
+	color: #AC8329;
+}
+
+.coolBtn:hover .coolBtnShape{
+	-webkit-animation: borderButtonAnimation linear forwards 0.3s;
+	animation: borderButtonAnimation linear forwards 0.3s;
+}
+
+@keyframes borderButtonAnimation{
+	
+	0%{
+		stroke-dasharray: 0 100;
+		stroke-dashoffset: 0;
+		stroke-width: 1px;
+	}
+	100%{
+		stroke-dasharray: 112 103;
+		stroke-dashoffset: 0;
+		stroke-width: 2px;
+	}
+}
+
+/* Parte de los colores */
+
+
+.coolBtn:hover .coolBtnText, .coolBtn:hover svg {
+	-webkit-animation: changeColor linear forwards 0.3s;
+	animation: changeColor linear forwards 0.3s;
+}
+
+@keyframes changeColor{
+	
+	0%{
+		color: #AC8329;
+		stroke: #AC8329;
+	}
+	100%{
+		color: #554315;
+		stroke: #554315;
+	}
+}

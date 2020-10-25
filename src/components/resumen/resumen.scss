@@ -1,0 +1,17 @@
+@import '../../styleGlobalVariables';
+
+#resumen{
+	color: black;
+	background-color: white;
+	min-height: $containerHeight;
+	padding: 1vh 1vw;	
+}
+
+#resumenItems{
+	display: inline-flex;
+}
+
+#resumen > h1{
+	color: black;
+	font-size: 2.5vw;
+}

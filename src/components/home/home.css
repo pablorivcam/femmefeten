@@ -1,0 +1,66 @@
+.homeVideo *{
+	pading: 1em !important;	
+	heigth: 100px;
+}
+
+.homeContent {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    /* color: white; */
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+   	background-color: #00000032;	 
+
+}
+
+.homeContent *{
+	color: white;
+	display: flex;
+    margin: auto;
+}
+
+.homeContent div {
+	padding: 1em;
+	font-size: 1vw;
+	border-radius: 1em;
+	display: inline-grid;
+	text-align: center;
+	
+}
+
+.homeContent div h1{
+	letter-spacing: 0.35em;
+	font-size: 3vw;
+}
+
+.homeContentDescription {
+	max-width: 60%;
+}
+
+.homeContentButton {
+	border: 0.1vw solid white;
+	margin-top: 1em;
+	padding: 1vw 1vh;
+	text-decoration:none;
+}
+
+.homeContentButton:hover {
+	-webkit-animation: homeContentButtonAnimation linear forwards 0.5s;
+	animation: homeContentButtonAnimation linear forwards 0.5s;
+}
+
+@keyframes homeContentButtonAnimation {
+  0% {
+  	background-color: none;
+  	color: white;
+  	border-radius: 0em;
+  }
+  100% {
+   	background-color: #FFFFFF; 
+   	color: black;
+  	border-radius: 0.1em;
+  }
+}

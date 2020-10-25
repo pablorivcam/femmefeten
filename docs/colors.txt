@@ -1,0 +1,4 @@
+#060300  - Primario
+#AC8329  - Secundario
+
+#FFFFFF -  Fondo

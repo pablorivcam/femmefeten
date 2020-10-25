@@ -1,0 +1,48 @@
+.resumenItem {
+	display: grid;
+	margin: 0 3vw;
+	padding: 3vh 1vw;
+	border: 1px solid black;
+}
+
+.resumenItem a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	font-size: 1.1vw;
+	margin: 2vh auto;
+	max-width: 10vw;
+	min-height: 20vh;
+}
+
+.resumenItem h1 {
+	margin: 1vh 0;
+	font-size: 1.6vw;
+}
+
+.resumenItem img {
+	margin: auto;
+	width: 20vw;
+	height: 45vh;
+}
+
+.resumenItemLink a:hover {
+	-webkit-animation: resumenItemLinkHoverAnimation linear forwards 0.5s;
+	animation: resumenItemLinkHoverAnimation linear forwards 0.5s;
+}
+
+.resumenItem span {
+	max-width: 24vw;
+	margin: auto;
+	font-size: 0.9vw;
+	color: black;
+}
+
+@keyframes resumenItemLinkHoverAnimation {
+  0% {
+	border-bottom: 1px solid #00000000;
+  }
+  100% {
+  	border-bottom: 1px solid #000000FF;
+  }
+}
