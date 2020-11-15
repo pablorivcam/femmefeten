@@ -34,10 +34,16 @@
 .homeContent div h1{
 	letter-spacing: 0.35em;
 	font-size: 3vw;
+	border: 0.1vw solid white;
+	padding: 1vh 1vw 1vh 1vw;
 }
 
 .homeContentDescription {
 	max-width: 60%;
+}
+
+.homeContentSubtitle {
+	font-size: 1.5vw;
 }
 
 .homeContentButton {
@@ -63,4 +69,40 @@
    	color: black;
   	border-radius: 0.1em;
   }
+}
+
+.homeContentButton:hover {
+	-webkit-animation: homeContentButtonAnimation linear forwards 0.5s;
+	animation: homeContentButtonAnimation linear forwards 0.5s;
+}
+
+.homeContent{
+	-webkit-animation: homeDisplayTitleAnimation linear forwards 3s;
+	animation: homeDisplayTitleAnimation linear forwards 3s;
+}
+
+@keyframes homeDisplayTitleAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.homeContent, .homeVideo{
+	position: fixed !important;
+}
+
+#homeStaticContent{
+	position: relative;
+	z-index: 2;
+}
+
+#homeWrapper{
+	height: 100vh;	
+	z-index: -10;
 }

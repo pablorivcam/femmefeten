@@ -12,7 +12,7 @@ class Footer extends Component {
 					<tr>
 						<td>
 							<img className="logo" src={logo2}/> 
-							<a className="footerTableLink" href="#">Pablo Rivas Camino - ©2019</a>
+							<a className="footerTableLink" href="#">Pablo Rivas Camino - ©2020</a>
 							<span className="footerTableLink">Dirección</span>
 							<span className="footerTableLink">Teléfono</span>
 						</td>

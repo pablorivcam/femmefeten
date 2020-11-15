@@ -7,10 +7,8 @@ class ResumenItem extends Component {
 		return (
 			<div className="resumenItem">
 				<img src={this.props.imagen}/>
-				<h1>{this.props.nombre}</h1>
-				<span>{this.props.descripcion}</span>
-				<div className="resumenItemLink">
-					<a href="#">Ver más</a>
+				<div className="resumenItemContent">
+					<h1>{this.props.nombre}</h1>
 				</div>
 			</div>
 		);

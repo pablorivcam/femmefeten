@@ -4,8 +4,6 @@ import './App.scss';
 import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/home';
-import Resumen from './components/resumen/resumen';
-import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -14,8 +12,6 @@ function App() {
     	<Header/>
     	<Navbar/>
     	<Home/>
-    	<Resumen/>
-    	<Footer/>
 
     </div>
   );

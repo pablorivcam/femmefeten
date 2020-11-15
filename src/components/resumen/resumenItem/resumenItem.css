@@ -1,48 +1,48 @@
 .resumenItem {
 	display: grid;
-	margin: 0 3vw;
-	padding: 3vh 1vw;
-	border: 1px solid black;
+	margin: 0.5vh 0.5vw;
+	width: inherit;
+	height: inherit;
 }
 
-.resumenItem a {
-	font-weight: bold;
-	text-decoration: none;
-	color: black;
-	font-size: 1.1vw;
-	margin: 2vh auto;
-	max-width: 10vw;
-	min-height: 20vh;
-}
-
-.resumenItem h1 {
+.resumenItem .resumenItemContent {
 	margin: 1vh 0;
-	font-size: 1.6vw;
+	z-index: 2;
+	margin: auto;
+	opacity: 0;
+	width: inherit;
+	height: inherit;
+	display: flex;
+	position: absolute;
+    transition: all 0.5s;	
+    -webkit-transition: all 0.5s;
+}
+
+.resumenItemContent h1 {
+	font-size: 2vw;
+	color: #FFFFFF;	
+	margin: auto;
 }
 
 .resumenItem img {
-	margin: auto;
-	width: 20vw;
-	height: 45vh;
+	width: inherit;
+	height: inherit;
 }
 
-.resumenItemLink a:hover {
-	-webkit-animation: resumenItemLinkHoverAnimation linear forwards 0.5s;
-	animation: resumenItemLinkHoverAnimation linear forwards 0.5s;
+.resumenItem:after {
+    content:'';
+    color:#fff;
+    position:absolute;
+    width:inherit; height:inherit;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.resumenItem:hover:after {
+    opacity:1;
 }
 
-.resumenItem span {
-	max-width: 24vw;
-	margin: auto;
-	font-size: 0.9vw;
-	color: black;
-}
-
-@keyframes resumenItemLinkHoverAnimation {
-  0% {
-	border-bottom: 1px solid #00000000;
-  }
-  100% {
-  	border-bottom: 1px solid #000000FF;
-  }
+.resumenItem:hover .resumenItemContent {
+	opacity: 1;
 }

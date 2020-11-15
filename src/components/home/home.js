@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import './home.css';
 import BackgroundVideo from '../backgroundvideo/BackgroundVideo';
+import Resumen from '../resumen/resumen';
+import Footer from '../footer/footer';
+
+import headerVideo from '../../images/video/video01.MOV';
 
 class Home extends Component {
 	
@@ -21,18 +25,22 @@ class Home extends Component {
 
 	render (){
 		return (
-			<div className="home">
+			<div id="home">
 				<div className="homeContent">
 					<div>
-						<span className="homeContentSubtitle">Estudio fotográfico</span>
 						<h1 className="homeContentTitle">FEMME FETÉN</h1>
-						<span className="homeContentDescription">Somos dos chicas gallegas que hacemos unas fotografías que son la caña. Si quieres que te hagamos unas foticos contáctanos!</span>
-						<a href="ddede" className="homeContentButton">VER MÁS</a>
+						<span className="homeContentSubtitle">Estudio fotográfico</span>
 					</div>
 				</div>
 				<div className="homeVideo">
-					<BackgroundVideo videoSource="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"/>
+					<BackgroundVideo videoSource={headerVideo}/>
 				</div>
+				<div id="homeStaticContent">
+					<div id="homeWrapper"/>
+					<Resumen/>
+		    		<Footer/>
+				</div>
+					
 			</div>
 		);
 	}
