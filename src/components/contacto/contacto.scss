@@ -1,0 +1,13 @@
+@import '../../styleGlobalVariables';
+
+#contacto{
+	color: black;
+	background-color: #000000;
+	min-height: $containerHeight;
+	padding: 1vh 1vw;	
+}
+
+#contacto > h1{
+	color: #E1E1E1;
+	font-size: 2vw;
+}

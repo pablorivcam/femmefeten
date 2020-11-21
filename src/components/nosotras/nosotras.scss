@@ -1,0 +1,41 @@
+@import '../../styleGlobalVariables';
+
+#nosotras{
+	color: black;
+	background-color: #000000;
+	min-height: $containerHeight;
+	
+	background-image: url("../../images/imagenes/sesion04.jpg");
+
+	/* Set a specific height */
+	height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#nosotrasTopContent {
+	min-height: $containerHeight * 0.6;
+}
+
+#nosotrasText {
+	color: #E1E1E1;
+	font-size: 1.4vw;
+}
+
+#nosotrasContent > h1{
+	color: #E1E1E1;
+	font-size: 2vw;
+}
+
+#nosotrasContent{
+	text-align: left;
+	padding: 1vh 1vw;		
+	width: 100%;
+	min-height: $containerHeight * 0.4;
+	background-color: #00000099;
+}

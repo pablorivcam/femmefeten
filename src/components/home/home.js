@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './home.css';
 import BackgroundVideo from '../backgroundvideo/BackgroundVideo';
 import Resumen from '../resumen/resumen';
+import Nosotras from '../nosotras/nosotras';
+import Contacto from '../contacto/contacto';
 import Footer from '../footer/footer';
 
 import headerVideo from '../../images/video/video01.MOV';
@@ -38,6 +40,8 @@ class Home extends Component {
 				<div id="homeStaticContent">
 					<div id="homeWrapper"/>
 					<Resumen/>
+					<Nosotras/>
+					<Contacto/>
 		    		<Footer/>
 				</div>
 					

@@ -23,8 +23,8 @@ class Navbar extends Component {
 					<div className={styles['logoContainer']}>
 						<img className={styles['logo']} src={logo}/> 
 					</div>
-					<a>NOSOTRAS</a>
-					<a>CONTACTO</a>
+					<a href="#nosotrasAnchor">NOSOTRAS</a>
+					<a href="#contactoAnchor">CONTACTO</a>
 				</div>
 			</nav>
 		);

@@ -22,8 +22,8 @@ class Footer extends Component {
 								<a className="footerTableLink" href="#">Inicio</a>
 								<a className="footerTableLink" href="#">Fotografía</a>
 								<a className="footerTableLink" href="#">Vídeo</a>
-								<a className="footerTableLink" href="#">Nosotras</a>
-								<a className="footerTableLink" href="#">Contacto</a>
+								<a className="footerTableLink" href="#nosotras">Nosotras</a>
+								<a className="footerTableLink" href="#contacto">Contacto</a>
 							</td>
 							<td>
 								<span className="footerTableTitle">Redes Sociales</span>
