@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d98e079c5110fc6ccb5431552e1299a4",
+    "revision": "379d7ad527bcf39098399c50029e2aff",
     "url": "/femmefeten/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/femmefeten/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "6f20363df754d4501920",
-    "url": "/femmefeten/static/css/main.b00c2173.chunk.css"
+    "revision": "25265bd354a1a6d7817f",
+    "url": "/femmefeten/static/css/main.e1f5ed3a.chunk.css"
   },
   {
     "revision": "8fb0180ce14876f6d161",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/femmefeten/static/js/2.017d35d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f20363df754d4501920",
-    "url": "/femmefeten/static/js/main.06be5fe5.chunk.js"
+    "revision": "25265bd354a1a6d7817f",
+    "url": "/femmefeten/static/js/main.4027315c.chunk.js"
   },
   {
     "revision": "2b3f14a3195a1027993d",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/femmefeten/precache-manifest.8a99882c755a0720baec2e3490a1482a.js"
+  "/femmefeten/precache-manifest.4c2b0c82f5eb5e65baa6ec75f6a15360.js"
 );
 
 self.addEventListener('message', (event) => {
