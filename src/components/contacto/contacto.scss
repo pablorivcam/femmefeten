@@ -1,13 +1,23 @@
 @import '../../styleGlobalVariables';
 
 #contacto{
-	color: black;
-	background-color: #000000;
+	color: #E1E1E1;
+	background-image: url("../../images/imagenes/sesion03.jpg");
 	min-height: $containerHeight;
-	padding: 1vh 1vw;	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #contacto > h1{
-	color: #E1E1E1;
 	font-size: 2vw;
+}
+
+
+#contactoContent{
+	padding: 1vh 1vw;		
+	width: 100%;
+	min-height: $containerHeight;
+	background-color: #00000099;
 }

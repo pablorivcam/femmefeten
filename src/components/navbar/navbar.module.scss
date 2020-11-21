@@ -75,6 +75,8 @@ header .headerBanner img{
 .logoContainer{
 	width: 4vw;
 	height: $navbarHeight;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
 .headerNavbar a:hover {
