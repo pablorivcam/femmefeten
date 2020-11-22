@@ -12,7 +12,9 @@ class Nosotras extends Component {
 				<div id="nosotrasContent">
 					<h1>Nosotras</h1>
 					<div id="nosotrasText">
-						<p>Somos Femme Fetén, dos chicas a las que nos mola mogollón hacer fotos y blablabla..</p>
+						<p>Hola! Somos Valeria y Carlota y nos dedicamos al mundo audiovisual por toda Galicia.<br/>
+
+						En esta página puedes ver algunos de nuestros trabajos, tanto de fotografía como de vídeo.</p>
 					</div>
 				</div>
 			</section>

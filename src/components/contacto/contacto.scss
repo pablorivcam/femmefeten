@@ -10,14 +10,116 @@
 	background-size: cover;
 }
 
-#contacto > h1{
+#contactoContent h1{
 	font-size: 2vw;
+	margin: 0;
+}
+
+#contactoContent h2{
+	font-size: 1.4vw;
 }
 
 
 #contactoContent{
 	padding: 1vh 1vw;		
-	width: 100%;
-	min-height: $containerHeight;
-	background-color: #00000099;
+	margin: auto;
 }
+
+#contactoContainer {
+	background-color: #00000099;
+	width: 100%;	
+	display: flex;
+	min-height: $containerHeight;	
+}
+
+.formularioContacto {
+	display: grid;
+	text-align: left;
+	font-size: 1.4vw;
+	width: 30vw;
+	margin: auto;
+}
+
+.formularioContacto > input {
+	margin-bottom: 0.2em;
+	font-size: 1.4vw;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.formularioContacto > textarea {
+	font-size: 1.4vw;
+	resize: none;
+	height: 12vh;
+}
+
+
+.formularioContacto > input[type="submit"] {
+	margin-top: 1em;
+	height: 4vh;
+	font-size: 1.4vw;	
+    text-decoration: none;
+	border: 0;
+	border-radius: 0em;
+	background: none;
+	border: 1px solid white;
+	color: white;
+	width: 8vw;
+	
+	transition-duration: 0.4s; 
+	-webkit-transition: all 0.4s ease; 
+	-moz-transition: all 0.4s ease; 
+	-o-transition: all 0.4s ease; 
+	-ms-transition: all 0.4s ease; 
+	transition: all 0.4s ease; 
+	
+}
+
+.formularioContacto > input::placeholder {
+	color: #999999;
+	font-weight: lighter;
+}
+
+.formularioContacto > input[type="submit"]:hover {
+	background-color: #fcdb92;
+	border: none;
+	color: black;
+	border-radius: 0.2em;
+}
+
+.formularioContacto > input[type="submit"]:focus {
+	background-color: #ffd16b;
+	outline-style: none;
+}
+
+.formularioContacto > input[type="text"]:focus, .formularioContacto > textarea:focus {
+	outline-style: none;
+	border: none;
+}
+
+#contactoInfo {
+	margin: auto;
+	display: inline-flex;
+}
+
+#staticContactoInfo{
+	width: 20vw;
+	display: block;
+	font-size: 1.4vw;
+	text-align: left;
+}
+#staticContactoInfo div {
+	margin: 1vh;
+}
+
+#contactoRedesSociales a {
+	color: white;
+	text-decoration: none;
+	margin: 0.2vw;
+}
+
+
