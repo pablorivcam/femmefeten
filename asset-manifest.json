@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/femmefeten/static/css/main.41b61208.chunk.css",
+    "main.css": "/femmefeten/static/css/main.1e062918.chunk.css",
     "main.js": "/femmefeten/static/js/main.d7cf4d80.chunk.js",
     "main.js.map": "/femmefeten/static/js/main.d7cf4d80.chunk.js.map",
     "runtime-main.js": "/femmefeten/static/js/runtime-main.c67fcb21.js",
@@ -9,10 +9,10 @@
     "static/js/2.aa39fa95.chunk.js": "/femmefeten/static/js/2.aa39fa95.chunk.js",
     "static/js/2.aa39fa95.chunk.js.map": "/femmefeten/static/js/2.aa39fa95.chunk.js.map",
     "index.html": "/femmefeten/index.html",
-    "precache-manifest.35f8f48add99bd4165aa6cda56211ca2.js": "/femmefeten/precache-manifest.35f8f48add99bd4165aa6cda56211ca2.js",
+    "precache-manifest.79af5b2442f0d56e6459e66392da5c1f.js": "/femmefeten/precache-manifest.79af5b2442f0d56e6459e66392da5c1f.js",
     "service-worker.js": "/femmefeten/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/femmefeten/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.41b61208.chunk.css.map": "/femmefeten/static/css/main.41b61208.chunk.css.map",
+    "static/css/main.1e062918.chunk.css.map": "/femmefeten/static/css/main.1e062918.chunk.css.map",
     "static/js/2.aa39fa95.chunk.js.LICENSE.txt": "/femmefeten/static/js/2.aa39fa95.chunk.js.LICENSE.txt",
     "static/media/index.css": "/femmefeten/static/media/Lato-Light.2fe27d9d.ttf",
     "static/media/logo.svg": "/femmefeten/static/media/logo.5d5d9eef.svg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.c67fcb21.js",
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.aa39fa95.chunk.js",
-    "static/css/main.41b61208.chunk.css",
+    "static/css/main.1e062918.chunk.css",
     "static/js/main.d7cf4d80.chunk.js"
   ]
 }
