@@ -6,7 +6,7 @@ class ResumenItem extends Component {
 	render (){
 		return (
 			<div className="resumenItem">
-				<img src={this.props.imagen}/>
+				<div className="resumenItemImage" style={{background: 'url('+this.props.imagen+')'}}/>
 				<div className="resumenItemContent">
 					<h1>{this.props.nombre}</h1>
 				</div>

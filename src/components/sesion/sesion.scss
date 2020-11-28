@@ -1,0 +1,19 @@
+@import '../../styleGlobalVariables';
+
+#sesion {
+	width: 100%;
+	color: black;
+	background-color: #E1E1E1;
+	min-height: $containerHeight;
+	position: absolute;
+	margin-top: $navbarHeight;
+}
+
+#backButton{
+	position: fixed;
+	bottom: 2vh;
+	left: 2vw;
+	padding: 40px;
+	background-color: blue;	
+	border-radius: 25em;
+}

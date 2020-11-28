@@ -9,9 +9,11 @@ class Navbar extends Component {
 	constructor (){
 		super();
 		window.addEventListener('scroll', () => {
+			if (document.querySelector("#homeWrapper") != null){
 	          let top = window.scrollY < document.querySelector("#homeWrapper").getBoundingClientRect().height -
 	          document.querySelector("nav").getBoundingClientRect().height;
 	          document.querySelector("nav").className = top ? styles['hiddenTop'] : styles['fixedTop'];
+			}	
 	    });
 	}
 	

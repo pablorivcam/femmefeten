@@ -3,6 +3,7 @@
 	margin: 0.5vh 0.5vw;
 	width: inherit;
 	height: inherit;
+    overflow: hidden;	
 }
 
 .resumenItem .resumenItemContent {
@@ -24,9 +25,12 @@
 	margin: auto;
 }
 
-.resumenItem img {
+.resumenItem .resumenItemImage {
 	width: inherit;
 	height: inherit;
+	background-size: cover !important;
+    transition: all 1s;
+    -webkit-transition: all 1s;
 }
 
 .resumenItem:after {
@@ -36,8 +40,8 @@
     width:inherit; height:inherit;
     background:rgba(0,0,0,0.6);
     opacity:0;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+    transition: all 1s;
+    -webkit-transition: all 1s;
 }
 .resumenItem:hover:after {
     opacity:1;
@@ -45,4 +49,8 @@
 
 .resumenItem:hover .resumenItemContent {
 	opacity: 1;
+}
+
+.resumenItem:hover .resumenItemImage{
+	transform: scale(1.1);
 }

@@ -1,17 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import Header from './components/header/Header';
-import Navbar from './components/navbar/Navbar';
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Home from './components/home/home';
+import Sesion from './components/sesion/sesion';
 
 function App() {
   return (
     <div className="App">
     
-    	<Header/>
-    	<Navbar/>
-    	<Home/>
+    	<BrowserRouter>
+    		<Switch>
+			<Route component = {Home} />
+    		</Switch>
+    	</BrowserRouter>
 
     </div>
   );

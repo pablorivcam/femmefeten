@@ -9,10 +9,14 @@ class Header extends Component {
 
 	constructor (){
 		super();
-		window.addEventListener('scroll', () => {
-	          let top = window.scrollY < document.querySelector("#homeWrapper").getBoundingClientRect().height * 0.9;
-	          document.querySelector("header").className = top ? styles['hiddenTop'] : styles['fixedTop'];
-	    });
+		
+			window.addEventListener('scroll', () => {
+				if (document.querySelector("#homeWrapper") != null){
+					let top = window.scrollY < document.querySelector("#homeWrapper").getBoundingClientRect().height * 0.9;
+					document.querySelector("header").className = top ? styles['hiddenTop'] : styles['fixedTop'];
+				}
+			});
+		
 	}
 	
 	render (){

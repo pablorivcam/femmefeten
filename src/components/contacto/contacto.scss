@@ -96,9 +96,10 @@
 	outline-style: none;
 }
 
-.formularioContacto > input[type="text"]:focus, .formularioContacto > textarea:focus {
+.formularioContacto > input[type="text"]:focus, 
+.formularioContacto > input[type="email"]:focus, 
+.formularioContacto > textarea:focus {
 	outline-style: none;
-	border: none;
 }
 
 #contactoInfo {
@@ -122,4 +123,50 @@
 	margin: 0.2vw;
 }
 
+.hidden {
+	visibility: collapse !important;
+	opacity: 0 !important;
+}
 
+.visible {
+	visibility: visible !important;
+	opacity: 1 !important;
+}
+
+#sendMessage{
+	display: flex;
+	transition-duration: 0.4s; 
+	-webkit-transition: visibility 0s, opacity 0.4s linear; 
+	-moz-transition: visibility 0s, opacity 0.4s linear; 
+	-o-transition: visibility 0s, opacity 0.4s linear; 
+	-ms-transition: visibility 0s, opacity 0.4s linear; 
+	transition: visibility 0s, opacity 0.4s linear; 
+	visibility: collapse;
+	top: 0;
+	position: fixed;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	min-height: $containerHeight;
+	background-color: #00000099;
+	color: #333333;
+}
+
+#sendMessage div{
+	border-radius: 0.5em;
+	background-color: #DDDDDD;
+	margin: auto;
+	width: 40vw;
+	padding: 1vh 1vw;
+	text-align: center;
+}
+
+#sendMessage p{
+	text-align: center;
+	margin: 1em 2em;
+}
+
+#sendMessage svg{
+	font-size: 3vw;
+	color: #0080CC;
+}

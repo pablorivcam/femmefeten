@@ -5,6 +5,8 @@ import Resumen from '../resumen/resumen';
 import Nosotras from '../nosotras/nosotras';
 import Contacto from '../contacto/contacto';
 import Footer from '../footer/footer';
+import Header from '../header/Header';
+import Navbar from '../navbar/Navbar';
 
 import headerVideo from '../../images/video/video01.MOV';
 
@@ -27,6 +29,9 @@ class Home extends Component {
 
 	render (){
 		return (
+			<React.Fragment>
+	    	<Header/>
+	    	<Navbar/>
 			<div id="home">
 				<div className="homeContent">
 					<div>
@@ -46,6 +51,7 @@ class Home extends Component {
 				</div>
 					
 			</div>
+			</React.Fragment>
 		);
 	}
 	
