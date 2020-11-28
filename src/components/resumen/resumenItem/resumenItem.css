@@ -29,6 +29,7 @@
 	width: inherit;
 	height: inherit;
 	background-size: cover !important;
+	background-repeat: round !important;
     transition: all 1s;
     -webkit-transition: all 1s;
 }
