@@ -5,12 +5,6 @@ import sesion04 from '../../../images/imagenes/sesion04.jpg';
 
 class VisorSesion extends Component {
 	
-	constructor (images){
-		super();
-		this.props= {}
-		this.setImages = this.setImages.bind(this);
-	}
-	
 	setImages (images){
 		
 		for (let i = 0; i<images[0].length; i++){

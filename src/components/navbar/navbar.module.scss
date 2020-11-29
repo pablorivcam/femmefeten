@@ -97,12 +97,111 @@ header .headerBanner img{
 	}
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  nav {
-  	display:none;
-  }
-  
+.collapseButtonContainer{
+	display: none;
+	color: white;
+	margin-right: 1vw;
+	float: right;
+    height: 100%;
+    text-align: center;
+    align-items: center;
 }
 
+.collapseButton{
+	border-radius: 1em;	
+    padding: 1vh 2vw;
+    font-size: 5vw;	
+    transition-duration: 0.4s; 
+    -webkit-transition: all 0.4s ease; 
+    -moz-transition: all 0.4s ease; 
+    -o-transition: all 0.4s ease; 
+    -ms-transition: all 0.4s ease; 
+    transition: all 0.4s ease;
+    z-index: 20; 
+}
+
+.collapseButton:hover{
+	color: #A1A199;
+}
+
+.activeCollapesButon{
+	transform: rotate(90deg);
+}
+
+.collapseLogo{
+	display: none;
+}
+
+.collapseLogo h1 {
+	color: white;
+	font-weight: normal;
+	margin-left: 0.5em;
+}
+
+.collapseLogo img {
+	width: 10vw;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+	.headerNavbar a{
+	  	font-size: 2vw;
+	}
+	
+	.logoContainer{
+		width: 7vw;
+		height: $navbarHeight;
+	}
+	
+	.logo {
+		width: 6vw;
+		height: $navbarHeight;
+	}
+	
+	.collapseButtonContainer{
+		display: flex;
+	}
+	
+	.headerNavbar{
+		justify-content: start;
+		float:left;
+		position: relative;
+		display: grid;
+		left: -50vw;	
+	 	transition-duration: 0.4s; 
+    	-webkit-transition: all 0.4s ease; 
+    	-moz-transition: all 0.4s ease; 
+    	-o-transition: all 0.4s ease; 
+    	-ms-transition: all 0.4s ease; 
+    	transition: all 0.4s ease;
+	}
+	.headerNavbar .headerNavbarLink{
+		min-width: 40vw;
+		background: #192323;
+		margin: 0;
+		padding: 1vh 1vw;
+		border-bottom: 1px solid #293333;
+	}
+	
+	.headerNavbar .headerNavbarLink a{
+		font-size: 3vw;
+		min-width: 40vw;
+		background: #192323;
+		margin: 0;
+		padding: 1vh 1vw;
+		border-bottom: 1px solid #293333;
+	}
+	
+	#homeLink {
+		display: none
+	}
+	
+	.uncollapsed{
+		left: 0vw;	
+	}
+		
+	.collapseLogo{
+		display: flex;
+	}
+}
 

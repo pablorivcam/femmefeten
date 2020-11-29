@@ -70,7 +70,7 @@ class Contacto extends Component {
 					        	<label>Mensaje:</label>
 				        		<textarea id="msg" name="mensaje" required></textarea>
 	
-					        	<input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit"/>
+					        	<input type="submit" value="Enviar" className="wpcf7-form-control wpcf7-submit"/>
 						        
 							</form>
 			        	</div>
