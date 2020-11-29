@@ -20,3 +20,9 @@
 table{
 	border-collapse: collapse;
 }
+
+@media only screen and (max-width: 768px) {
+  #resumen > h1 { 
+	font-size: 4vw !important;
+  }
+}

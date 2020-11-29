@@ -170,3 +170,38 @@
 	font-size: 3vw;
 	color: #0080CC;
 }
+
+@media only screen and (max-width: 768px) {
+  #contactoContent > h1 { 
+	font-size: 4vw !important;
+  }
+  
+  #contactoContent h2{
+	font-size: 2.8vw;
+  }
+  
+  .formularioContacto {
+	font-size: 2.8vw;
+  }
+  
+  .formularioContacto > input[type="submit"] {
+	margin-top: 1em;
+	height: 4vh;
+	font-size: 2.8vw;
+	width: 12vw;
+  }
+  
+  #staticContactoInfo{
+	width: 40vw;
+	font-size: 2.8vw;
+  }
+  
+  .formularioContacto > input {
+	font-size: 2.8vw;
+  }
+  
+  .formularioContacto {
+  	width: 40vw;
+  }
+  
+}

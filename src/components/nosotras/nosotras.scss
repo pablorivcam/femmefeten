@@ -40,3 +40,17 @@
 	min-height: $containerHeight * 0.4;
 	background-color: #00000099;
 }
+
+p {
+	width: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+  #nosotrasContent > h1 { 
+	font-size: 4vw !important;
+  }
+  
+  #nosotrasText {
+	font-size: 2.8vw !important;
+  }
+}

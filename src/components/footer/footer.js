@@ -18,7 +18,7 @@ class Footer extends Component {
 							<td>
 								<img className="logo" src={logo2} alt="femmeFetenLogo"/> 
 								<a className="footerTableLink" href="#">Pablo Rivas Camino - ©2020</a>
-								<span className="footerTableLink"><FontAwesomeIcon icon={faEnvelope}/> uhihuidf@gmail.com</span>
+								<span className="footerTableLink"><FontAwesomeIcon icon={faEnvelope}/>pablorivcam@gmail.com</span>
 							</td>
 							<td>
 								<span className="footerTableTitle">Enlaces</span>

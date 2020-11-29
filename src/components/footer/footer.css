@@ -35,3 +35,28 @@ footer .logo {
 .footerTableLink svg {
 	margin-right: 4px;
 }
+
+@media only screen and (max-width: 768px) {
+
+	footer {
+		font-size: 2vw;
+	}
+	
+	footer table tr td {
+		width: 30vw;
+	}
+	
+	.footerTableTitle{
+		font-weight: bold;
+		font-size: 2.4vw;
+	}
+	
+	
+	.footerTableLink{
+		font-size: 2vw;
+	}
+	
+	footer .logo {
+		width: 18vw;
+	}
+}

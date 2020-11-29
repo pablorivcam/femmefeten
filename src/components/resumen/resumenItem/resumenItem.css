@@ -29,7 +29,7 @@
 	width: inherit;
 	height: inherit;
 	background-size: cover !important;
-	background-repeat: round !important;
+	background-position: center !important;
     transition: all 1s;
     -webkit-transition: all 1s;
 }
@@ -54,4 +54,12 @@
 
 .resumenItem:hover .resumenItemImage{
 	transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+
+	.resumenItemContent h1 {
+		font-size: 4vw;
+	}
+	
 }

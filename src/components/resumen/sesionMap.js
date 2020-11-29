@@ -41,7 +41,7 @@ class SessionMap {
 				portada: juditWeb02,
 				imagenes: [juditWeb01, juditWeb02, juditWeb03, juditWeb04],
 				ancho: 40,
-				alto: 70,
+				alto: 71,
 				rowspan: 2,
 				colspan: 1,
 				aosEffect: 'fade-left'

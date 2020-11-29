@@ -14,7 +14,7 @@ class VisorSesion extends Component {
 	setImages (images){
 		
 		for (let i = 0; i<images[0].length; i++){
-			if (i != 0){
+			if (i !== 0){
 				document.getElementById("visorSesionContainer").innerHTML+='<img src="'+images[0][i]+'"/>';	
 			} else{
 				document.getElementById("visorSesionContainer").innerHTML='<img src="'+images[0][i]+'"/>';	
