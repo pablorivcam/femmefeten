@@ -130,10 +130,13 @@ header .headerBanner img{
 
 .collapseLogo{
 	display: none;
+	max-height: $navbarHeight;
+	align-items: center;
 }
 
 .collapseLogo h1 {
 	color: white;
+	font-size: 6vw;
 	font-weight: normal;
 	margin-left: 0.5em;
 }
@@ -179,17 +182,17 @@ header .headerBanner img{
 		min-width: 40vw;
 		background: #192323;
 		margin: 0;
-		padding: 1vh 1vw;
+		padding: 1vh 0vw;
 		border-bottom: 1px solid #293333;
 	}
 	
 	.headerNavbar .headerNavbarLink a{
 		font-size: 3vw;
 		min-width: 40vw;
+		width: 100%;
 		background: #192323;
 		margin: 0;
-		padding: 1vh 1vw;
-		border-bottom: 1px solid #293333;
+		padding: 1vh 11vw;
 	}
 	
 	#homeLink {

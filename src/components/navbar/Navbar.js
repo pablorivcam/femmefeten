@@ -14,6 +14,7 @@ class Navbar extends Component {
 		super();	
 		
 		this.collapsed = true;
+		this.initialized = false;
 		
 		this.onCollapse = this.onCollapse.bind(this);
 		window.addEventListener('scroll', () => {
@@ -23,8 +24,7 @@ class Navbar extends Component {
 	          document.querySelector("nav").className = isTop ? styles['hiddenTop'] : styles['fixedTop'];
 			}	
 	    });
-	
-		
+
 	}
 	
 	onCollapse (){
@@ -36,7 +36,8 @@ class Navbar extends Component {
 		} else {
 			document.getElementById("collapseButton").classList.add(styles['activeCollapesButon']);	
 			document.getElementById("navbarContent").classList.add(styles['uncollapsed']);	
-		}		
+		}	
+		
 		
 	}
 	
